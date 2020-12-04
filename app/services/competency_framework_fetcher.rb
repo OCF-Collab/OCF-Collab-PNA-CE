@@ -22,6 +22,6 @@ class CompetencyFrameworkFetcher
   end
 
   def framework_url
-    id.gsub("resources", "graph")
+    id
   end
 end
